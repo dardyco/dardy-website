@@ -6,7 +6,7 @@ export default defineConfig({
   // IMPORTANT: change this to match your GitHub repo name, e.g. '/dardy-site/'
   // If deploying to a custom domain or a user/org page (username.github.io), use '/'
 
-  base: '/dardy-website/',
+  base: '/',
 
   
 })

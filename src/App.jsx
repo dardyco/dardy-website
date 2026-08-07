@@ -150,7 +150,8 @@ function Parallax({ speed = 0.1, className }) {
     };
     const onScroll = rafThrottle(update);
     window.addEventListener("scroll", onScroll, { passive: true });
-    update();
+requestAnimationFrame(update);
+
     return () => window.removeEventListener("scroll", onScroll);
   }, [speed]);
   return <div ref={ref} className={className} />;
@@ -187,7 +188,8 @@ function Nav() {
     };
     const onScroll = rafThrottle(update);
     window.addEventListener("scroll", onScroll, { passive: true });
-    update();
+requestAnimationFrame(update);
+
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
@@ -588,7 +590,8 @@ function Methodology() {
     };
     const onScroll = rafThrottle(update);
     window.addEventListener("scroll", onScroll, { passive: true });
-    update();
+requestAnimationFrame(update);
+
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 

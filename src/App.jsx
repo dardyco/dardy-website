@@ -317,7 +317,11 @@ function Hero() {
 >
   Request an Outbound Review <ArrowRight size={16} />
 </MagneticButton>
-                <MagneticButton variant="secondary">See our methodology</MagneticButton>
+                <a href="mailto:hello@dardy.co">
+  <MagneticButton variant="primary">
+    Request an Outbound Review <ArrowRight size={16} />
+  </MagneticButton>
+</a>
               </a>
             </div>
           </Reveal>

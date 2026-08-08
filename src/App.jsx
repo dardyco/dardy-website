@@ -321,7 +321,7 @@ function Hero() {
   <MagneticButton variant="primary">
     Request an Outbound Review <ArrowRight size={16} />
   </MagneticButton>
-
+                </a>a
             </div>
           </Reveal>
 

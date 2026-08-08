@@ -308,8 +308,15 @@ function Hero() {
 
           <Reveal delay={240}>
             <div className="mt-10 flex flex-wrap items-center gap-4">
-              <MagneticButton variant="primary">Request an Outbound Review <ArrowRight size={16} /></MagneticButton>
-              <a href="#method">
+              <MagneticButton
+  variant="primary"
+  onClick={() => {
+    window.location.href =
+      "mailto:YOUR-EMAIL@dardy.co?subject=Request%20an%20Outbound%20Review";
+  }}
+>
+  Request an Outbound Review <ArrowRight size={16} />
+</MagneticButton>
                 <MagneticButton variant="secondary">See our methodology</MagneticButton>
               </a>
             </div>

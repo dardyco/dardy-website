@@ -312,7 +312,7 @@ function Hero() {
   variant="primary"
   onClick={() => {
     window.location.href =
-      "mailto:YOUR-EMAIL@dardy.co?subject=Request%20an%20Outbound%20Review";
+      "mailto:hello@dardy.co?subject=Request%20an%20Outbound%20Review";
   }}
 >
   Request an Outbound Review <ArrowRight size={16} />
